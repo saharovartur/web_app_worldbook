@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Author, Book, Genre, Language, Status, BookInstance
 
-admin.site.register(Author)
+#admin.site.register(Author) - при наличии этой регистрации джанго не даст создать суперюзера
 admin.site.register(Book)
 admin.site.register(Genre)
 admin.site.register(Author)
